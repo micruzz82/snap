@@ -27,8 +27,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/pkg/ctree"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/pkg/ctree"
 )
 
 type ProcessingErrors struct {

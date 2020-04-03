@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/intelsdi-x/snap/control/strategy/fixtures"
+	. "github.com/micruzz82/snap/control/strategy/fixtures"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

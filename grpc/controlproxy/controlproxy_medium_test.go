@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/grpc/common"
-	"github.com/intelsdi-x/snap/grpc/controlproxy/rpc"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/grpc/common"
+	"github.com/micruzz82/snap/grpc/controlproxy/rpc"
 
-	"github.com/intelsdi-x/snap/core/cdata"
+	"github.com/micruzz82/snap/core/cdata"
 	. "github.com/smartystreets/goconvey/convey"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

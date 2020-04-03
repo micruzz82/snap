@@ -27,9 +27,9 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/pkg/stringutils"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/pkg/stringutils"
 )
 
 var (

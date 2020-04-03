@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/intelsdi-x/snap/core"
+	"github.com/micruzz82/snap/core"
 )
 
 /*

@@ -42,16 +42,16 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/fixtures"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
-	"github.com/intelsdi-x/snap/pkg/cfgfile"
-	"github.com/intelsdi-x/snap/plugin/helper"
-	"github.com/intelsdi-x/snap/scheduler"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/mgmt/rest/v1/fixtures"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/pkg/cfgfile"
+	"github.com/micruzz82/snap/plugin/helper"
+	"github.com/micruzz82/snap/scheduler"
+	"github.com/micruzz82/snap/scheduler/wmap"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

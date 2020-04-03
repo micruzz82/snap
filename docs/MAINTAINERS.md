@@ -49,6 +49,6 @@ All contributors are equally important to us, but we would like to thank the [in
 ## Contact Us
 Contacting us is easy! Use these simple tips for the most effective communication with us.
 * **For a quick question:** reach out to us on [Slack](https://slack.snap-telemetry.io). You can search by GitHub handles and ping individual users, start a group conversation, and post to the Snap community. Maintainers check this regularly and will be the fastest way of contacting us.
-* **If you find a bug in the code or have a question about some code:** go ahead and [open up a GitHub issue](https://github.com/intelsdi-x/snap/issues). This will start a dialog. If you don't know how to solve the issue we will pick it up and help fix the bug. 
+* **If you find a bug in the code or have a question about some code:** go ahead and [open up a GitHub issue](https://github.com/micruzz82/snap/issues). This will start a dialog. If you don't know how to solve the issue we will pick it up and help fix the bug. 
 * **To get a specific person's attention:** @mention them in an issue and they will get back to you.
 * **For plugin related issues:** contact the plugin's author or reach out to a maintainer.

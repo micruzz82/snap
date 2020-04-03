@@ -24,9 +24,9 @@ package main
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/plugin/helper"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/plugin/helper"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

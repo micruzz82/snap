@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
-	. "github.com/intelsdi-x/snap/pkg/promise"
+	"github.com/micruzz82/snap/core"
+	. "github.com/micruzz82/snap/pkg/promise"
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -28,7 +28,7 @@ import (
 	"strings"
 
 	"github.com/ghodss/yaml"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/core/serror"
 	"github.com/xeipuuv/gojsonschema"
 )
 

@@ -59,6 +59,6 @@ install:
 	cp build/$(OS)/$(ARCH)/snapteld /usr/local/sbin/
 	cp build/$(OS)/$(ARCH)/snaptel /usr/local/bin/
 proto:
-	cd `echo $(GOPATH) | cut -d: -f 1`; bash -c "./src/github.com/intelsdi-x/snap/scripts/gen-proto.sh"
+	cd `echo $(GOPATH) | cut -d: -f 1`; bash -c "./src/github.com/micruzz82/snap/scripts/gen-proto.sh"
 swagger:
 	bash -c "./scripts/swagger.sh"

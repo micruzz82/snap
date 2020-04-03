@@ -22,7 +22,7 @@ package strategy
 import (
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
+	"github.com/micruzz82/snap/core"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -30,9 +30,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/pkg/schedule"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/pkg/schedule"
+	"github.com/micruzz82/snap/scheduler/wmap"
 )
 
 type TaskState int

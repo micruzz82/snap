@@ -23,9 +23,9 @@ import (
 	"time"
 
 	// Import the snap plugin library
-	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
+	"github.com/micruzz82/snap-plugin-lib-go/v1/plugin"
 	// Import our collector plugin implementation
-	"github.com/intelsdi-x/snap/plugin/collector/snap-plugin-collector-mock2-grpc/mock"
+	"github.com/micruzz82/snap/plugin/collector/snap-plugin-collector-mock2-grpc/mock"
 )
 
 const (

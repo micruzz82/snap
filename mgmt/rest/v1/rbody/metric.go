@@ -22,7 +22,7 @@ package rbody
 import (
 	"fmt"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
 )
 
 const (

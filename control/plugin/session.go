@@ -19,7 +19,7 @@ limitations under the License.
 
 package plugin
 
-import "github.com/intelsdi-x/snap/control/plugin/cpolicy"
+import "github.com/micruzz82/snap/control/plugin/cpolicy"
 
 type KillArgs struct {
 	Reason string

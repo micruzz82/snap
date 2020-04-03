@@ -21,7 +21,7 @@ limitations under the License.
 
 **This project will no longer be maintained by Intel.  Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.  Patches to this project are no longer accepted by Intel. If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the community, please create your own fork of the project.**
 
-# **The Snap Telemetry Framework** [![Build Status](https://travis-ci.org/intelsdi-x/snap.svg?branch=master)](https://travis-ci.org/intelsdi-x/snap) [![Go Report Card](https://goreportcard.com/badge/intelsdi-x/snap)](https://goreportcard.com/report/intelsdi-x/snap)  [![Join the chat on Slack](https://intelsdi-x.herokuapp.com/badge.svg)](https://intelsdi-x.herokuapp.com/)
+# **The Snap Telemetry Framework** [![Build Status](https://travis-ci.org/micruzz82/snap.svg?branch=master)](https://travis-ci.org/micruzz82/snap) [![Go Report Card](https://goreportcard.com/badge/micruzz82/snap)](https://goreportcard.com/report/micruzz82/snap)  [![Join the chat on Slack](https://micruzz82.herokuapp.com/badge.svg)](https://micruzz82.herokuapp.com/)
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/1744971/20331694/e07e9148-ab5b-11e6-856a-e4e956540077.png" width="70%">
@@ -115,23 +115,23 @@ Snap does not have external dependencies since it is compiled into a statically 
 
 ### Installation
 
-You can obtain Linux RPM/Deb packages from [Snap's packagecloud.io repository](https://packagecloud.io/intelsdi-x/snap). After installation, please check and ensure `/usr/local/bin:/usr/local/sbin` is in your path via `echo $PATH` before executing any Snap commands.
+You can obtain Linux RPM/Deb packages from [Snap's packagecloud.io repository](https://packagecloud.io/micruzz82/snap). After installation, please check and ensure `/usr/local/bin:/usr/local/sbin` is in your path via `echo $PATH` before executing any Snap commands.
 
 RedHat 6/7:
 ```
-$ curl -s https://packagecloud.io/install/repositories/intelsdi-x/snap/script.rpm.sh | sudo bash
+$ curl -s https://packagecloud.io/install/repositories/micruzz82/snap/script.rpm.sh | sudo bash
 $ sudo yum install -y snap-telemetry
 ```
 
 Ubuntu 14.04/16.04 (see known issue with Ubuntu 16.04.1 below)
 ```
-$ curl -s https://packagecloud.io/install/repositories/intelsdi-x/snap/script.deb.sh | sudo bash
+$ curl -s https://packagecloud.io/install/repositories/micruzz82/snap/script.deb.sh | sudo bash
 $ sudo apt-get install -y snap-telemetry
 ```
 
 We only build and test packages for a limited set of Linux distributions. For distros that are compatible with RedHat/Ubuntu packages, you can use the environment variable `os=` and `dist=` to override the OS detection script. For example Linux Mint 17/17.* (use `dist=xenial` for Linux Mint 18/18.*):
 ```
-$ curl -s https://packagecloud.io/install/repositories/intelsdi-x/snap/script.deb.sh | sudo os=ubuntu dist=trusty bash
+$ curl -s https://packagecloud.io/install/repositories/micruzz82/snap/script.deb.sh | sudo os=ubuntu dist=trusty bash
 $ sudo apt-get install -y snap-telemetry
 ```
 
@@ -156,13 +156,13 @@ $ cp snapteld /usr/local/sbin
 $ cp snaptel /usr/local/bin
 ```
 
-The intelsdi-x package repo contains additional information regarding:
+The micruzz82 package repo contains additional information regarding:
 
-* [Snap Redhat/Ubuntu packages](https://packagecloud.io/intelsdi-x/snap)
-* [Snap `.tar.gz` bundles and MacOS `.pkg` installer](https://github.com/intelsdi-x/snap/releases).
-* [installation script](https://packagecloud.io/intelsdi-x/snap/install#bash)
-* [manual installation steps](https://packagecloud.io/intelsdi-x/snap/install#manual)
-* [repo mirroring](https://packagecloud.io/intelsdi-x/snap/mirror)
+* [Snap Redhat/Ubuntu packages](https://packagecloud.io/micruzz82/snap)
+* [Snap `.tar.gz` bundles and MacOS `.pkg` installer](https://github.com/micruzz82/snap/releases).
+* [installation script](https://packagecloud.io/micruzz82/snap/install#bash)
+* [manual installation steps](https://packagecloud.io/micruzz82/snap/install#manual)
+* [repo mirroring](https://packagecloud.io/micruzz82/snap/mirror)
 
 NOTE: snap-telemetry packages prior to 0.19.0 installed `/usr/local/bin/{snapctl|snapd}` and these binaries have been renamed to `snaptel` and `snapteld`. snap-telemetry packages prior to 0.18.0 symlinked `/usr/bin/{snapctl|snapd}` to `/opt/snap/bin/{snapctl|snapd}` and may cause conflicts with [Ubuntu's `snapd` package](http://packages.ubuntu.com/xenial-updates/snapd). Ubuntu 16.04.1 [snapd package version 2.13+](https://launchpad.net/ubuntu/+source/snapd) installs snapd/snapctl binary in /usr/bin. These executables are not related to snap-telemetry. Running `snapctl` from snapd package will result in the following error message:
 
@@ -211,8 +211,8 @@ First, let's download the file and psutil plugins (also make sure [psutil is ins
 ```
 $ export OS=$(uname -s | tr '[:upper:]' '[:lower:]')
 $ export ARCH=$(uname -m)
-$ curl -sfL "https://github.com/intelsdi-x/snap-plugin-publisher-file/releases/download/2/snap-plugin-publisher-file_${OS}_${ARCH}" -o snap-plugin-publisher-file
-$ curl -sfL "https://github.com/intelsdi-x/snap-plugin-collector-psutil/releases/download/8/snap-plugin-collector-psutil_${OS}_${ARCH}" -o snap-plugin-collector-psutil
+$ curl -sfL "https://github.com/micruzz82/snap-plugin-publisher-file/releases/download/2/snap-plugin-publisher-file_${OS}_${ARCH}" -o snap-plugin-publisher-file
+$ curl -sfL "https://github.com/micruzz82/snap-plugin-collector-psutil/releases/download/8/snap-plugin-collector-psutil_${OS}_${ARCH}" -o snap-plugin-collector-psutil
 ```
 
 Next load the plugins into Snap daemon using `snaptel`:
@@ -269,7 +269,7 @@ To collect data, you need to create a task by loading a `Task Manifest`. The Tas
 
 Now, download and load the [psutil example](examples/tasks/psutil-file.yaml):
 ```
-$ curl https://raw.githubusercontent.com/intelsdi-x/snap/master/examples/tasks/psutil-file.yaml -o /tmp/psutil-file.yaml
+$ curl https://raw.githubusercontent.com/micruzz82/snap/master/examples/tasks/psutil-file.yaml -o /tmp/psutil-file.yaml
 $ snaptel task create -t /tmp/psutil-file.yaml
 Using task manifest to create task
 Task created
@@ -309,9 +309,9 @@ When you're ready to move on, walk through other uses of Snap available in the [
 Documentation for building a task can be found [here](docs/TASKS.md).
 
 ### Plugin Catalog
-All known plugins are tracked in the [plugin catalog](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_CATALOG.md) and are tagged as collectors, processors, publishers and streaming collectors.
+All known plugins are tracked in the [plugin catalog](https://github.com/micruzz82/snap/blob/master/docs/PLUGIN_CATALOG.md) and are tagged as collectors, processors, publishers and streaming collectors.
 
-If you would like to write your own, read through [Author a Plugin](#author-a-plugin) to get started. Let us know if you begin to write one by [joining our Slack channel](https://intelsdi-x.herokuapp.com/). When you finish, please open a Pull Request to add yours to the catalog!
+If you would like to write your own, read through [Author a Plugin](#author-a-plugin) to get started. Let us know if you begin to write one by [joining our Slack channel](https://micruzz82.herokuapp.com/). When you finish, please open a Pull Request to add yours to the catalog!
 
 ## Documentation
 Documentation for Snap will be kept in this repository for now with an emphasis of filling out the `docs/` directory. We would also like to link to external how-to blog posts as people write them. [Read about contributing to the project](#contributing) for more details.
@@ -341,7 +341,7 @@ This note is especially important for plugins. While the Snap framework is harde
 We encourage contributions from the community. Snap needs:
 
 * _Contributors_: We always appreciate more eyes on the core framework and plugins
-* _Feedback_: try it and tell us about it on [our Slack team](https://intelsdi-x.herokuapp.com/), through [a blog posts](https://medium.com/intel-sdi/) or Twitter with #SnapTelemetry
+* _Feedback_: try it and tell us about it on [our Slack team](https://micruzz82.herokuapp.com/), through [a blog posts](https://medium.com/intel-sdi/) or Twitter with #SnapTelemetry
 * _Integrations_: Snap can collect from and publish to almost anything by [authoring a plugin](#author-a-plugin)
 
 To contribute to the Snap framework, see our [CONTRIBUTING.md](CONTRIBUTING.md) file. To give back to a specific plugin, open an issue on its repository. Snap maintainers aim to address comments and questions as quickly as possible. To get some attention on an issue, reach out to us [on Slack](http://slack.snap-telemetry.io), or open an issue to get a conversation started.
@@ -357,7 +357,7 @@ Add to the ecosystem by building your own plugins to collect, process or publish
 ### Become a Maintainer
 Snap maintainers are here to help guide Snap, the plugins, and the community forward in a positive direction. Maintainers of Snap and the Intel created plugins are selected based on contributions to the project and recommendations from other maintainers. The full list of active maintainers can be found [here](docs/MAINTAINERS.md).
 
-Interested in becoming a maintainer? Check out [Responsibilities of a Maintainer](docs/MAINTAINERS.md#responsibilities-of-maintainers) and open an issue [here](https://github.com/intelsdi-x/snap/issues/new?title=interested+in+becoming+a+maintainer&body=About+me) to discuss your interest.
+Interested in becoming a maintainer? Check out [Responsibilities of a Maintainer](docs/MAINTAINERS.md#responsibilities-of-maintainers) and open an issue [here](https://github.com/micruzz82/snap/issues/new?title=interested+in+becoming+a+maintainer&body=About+me) to discuss your interest.
 
 ## Code of Conduct
 All contributors to Snap are expected to be helpful and encouraging to all members of the community, treating everyone with a high level of professionalism and respect. See our [code of conduct](CODE_OF_CONDUCT.md) for more details.

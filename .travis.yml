@@ -7,11 +7,11 @@ go:
 before_install:
 - bash scripts/gitcookie.sh
 - go get github.com/smartystreets/goconvey/convey
-- if [ ! -d $SNAP_SOURCE ]; then mkdir -p $HOME/gopath/src/github.com/intelsdi-x; ln -s $TRAVIS_BUILD_DIR $SNAP_SOURCE; fi # CI for forks not from intelsdi-x
+- if [ ! -d $SNAP_SOURCE ]; then mkdir -p $HOME/gopath/src/github.com/micruzz82; ln -s $TRAVIS_BUILD_DIR $SNAP_SOURCE; fi # CI for forks not from micruzz82
 - go get -u github.com/alecthomas/gometalinter
 env:
   global:
-  - SNAP_SOURCE=/home/travis/gopath/src/github.com/intelsdi-x/snap
+  - SNAP_SOURCE=/home/travis/gopath/src/github.com/micruzz82/snap
   - GO15VENDOREXPERIMENT=1
   - GLIDE_HOME="${HOME}/.glide"
   matrix:
@@ -46,7 +46,7 @@ deploy:
   upload-dir: snap
   acl: public_read
   on:
-    repo: intelsdi-x/snap
+    repo: micruzz82/snap
     branch: master
     condition: $SNAP_TEST_TYPE = build && $TRAVIS_GO_VERSION = "1.7.3"
 - provider: s3
@@ -59,6 +59,6 @@ deploy:
   upload-dir: snap
   acl: public_read
   on:
-    repo: intelsdi-x/snap
+    repo: micruzz82/snap
     tags: true
     condition: $SNAP_TEST_TYPE = build && $TRAVIS_GO_VERSION = "1.7.3"

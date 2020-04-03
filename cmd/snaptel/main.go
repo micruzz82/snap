@@ -28,7 +28,7 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/client"
+	"github.com/micruzz82/snap/mgmt/rest/client"
 	"github.com/urfave/cli"
 )
 

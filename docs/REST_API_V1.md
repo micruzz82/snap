@@ -1,7 +1,7 @@
 # Notice
 This document describes API v1, which is currently supported, but no longer in active development.
 
-In the future, it will be fully replaced by [API v2](REST_API_V2.md) - see details in [issue 1637](https://github.com/intelsdi-x/snap/issues/1637).
+In the future, it will be fully replaced by [API v2](REST_API_V2.md) - see details in [issue 1637](https://github.com/micruzz82/snap/issues/1637).
 
 **Notice that [Tribe API](#tribe-api) is available only in API v1 at the moment.**
 

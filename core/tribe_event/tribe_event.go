@@ -19,7 +19,7 @@ limitations under the License.
 
 package tribe_event
 
-import "github.com/intelsdi-x/snap/core"
+import "github.com/micruzz82/snap/core"
 
 const (
 	PluginAdded = "Tribe.PluginAdded"

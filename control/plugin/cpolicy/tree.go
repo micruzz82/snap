@@ -24,7 +24,7 @@ import (
 	"encoding/gob"
 	"encoding/json"
 
-	"github.com/intelsdi-x/snap/pkg/ctree"
+	"github.com/micruzz82/snap/pkg/ctree"
 )
 
 // Allows adding of config policy by namespace and retrieving of policy from a tree

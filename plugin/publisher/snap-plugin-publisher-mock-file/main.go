@@ -22,8 +22,8 @@ package main
 import (
 	"os"
 
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/plugin/publisher/snap-plugin-publisher-mock-file/file"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/plugin/publisher/snap-plugin-publisher-mock-file/file"
 )
 
 func main() {

@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/pkg/chrono"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/pkg/chrono"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -35,9 +35,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/mgmt/rest/v2/mock"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/mgmt/rest/v2/mock"
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 )

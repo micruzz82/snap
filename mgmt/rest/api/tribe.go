@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/mgmt/tribe/agreement"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/mgmt/tribe/agreement"
 )
 
 type Tribe interface {

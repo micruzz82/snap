@@ -60,7 +60,7 @@ These are plugins in varying phases of completeness and are shared for reference
 
 ## Changing Tiers 
 
-If you find a plugin that should move between tiers (ex. from Unlabeled to Approved, Supported to Experimental or Approved to Experimental), open an issue to do so on the [main Snap repository](https://github.com/intelsdi-x/snap/issues). Please include any corresponding issues opened on the plugin repository as well. 
+If you find a plugin that should move between tiers (ex. from Unlabeled to Approved, Supported to Experimental or Approved to Experimental), open an issue to do so on the [main Snap repository](https://github.com/micruzz82/snap/issues). Please include any corresponding issues opened on the plugin repository as well. 
 
 ## More On Support For Plugins
 

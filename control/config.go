@@ -31,9 +31,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vrischmann/jsonutil"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
 )
 
 // default configuration values
@@ -259,7 +259,7 @@ func (p *Config) IsTLSEnabled() bool {
 }
 
 // UnmarshalJSON unmarshals valid json into pluginConfig.  An example Config
-// github.com/intelsdi-x/snap/blob/master/examples/configs/snap-config-sample.json
+// github.com/micruzz82/snap/blob/master/examples/configs/snap-config-sample.json
 func (p *pluginConfig) UnmarshalJSON(data []byte) error {
 	t := map[string]interface{}{}
 	dec := json.NewDecoder(bytes.NewReader(data))

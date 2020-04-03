@@ -65,7 +65,7 @@ To enable large tests on Travis CI, please enable sudo, docker, and add the appr
     - docker
   env:
     global:   # If you change the matrix, please preserve environment globals:
-      - ORG_PATH=/home/travis/gopath/src/github.com/intelsdi-x
+      - ORG_PATH=/home/travis/gopath/src/github.com/micruzz82
       - SNAP_PLUGIN_SOURCE=/home/travis/gopath/src/github.com/${TRAVIS_REPO_SLUG}
     matrix:
       - TEST_TYPE: small             # preserve existing small tests

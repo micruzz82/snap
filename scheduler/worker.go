@@ -22,7 +22,7 @@ package scheduler
 import (
 	"errors"
 
-	"github.com/intelsdi-x/snap/pkg/chrono"
+	"github.com/micruzz82/snap/pkg/chrono"
 	"github.com/pborman/uuid"
 )
 

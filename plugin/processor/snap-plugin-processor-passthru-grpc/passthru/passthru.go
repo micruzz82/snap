@@ -22,7 +22,7 @@ package passthru
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
+	"github.com/micruzz82/snap-plugin-lib-go/v1/plugin"
 )
 
 const (

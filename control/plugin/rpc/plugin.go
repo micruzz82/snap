@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/core/ctypes"
 )
 
 var (

@@ -67,7 +67,7 @@ func GetDefaultConfig() *Config {
 }
 
 // UnmarshalJSON unmarshals valid json into a Config.  An example Config can be found
-// at github.com/intelsdi-x/snap/blob/master/examples/configs/snap-config-sample.json
+// at github.com/micruzz82/snap/blob/master/examples/configs/snap-config-sample.json
 func (c *Config) UnmarshalJSON(data []byte) error {
 	// construct a map of strings to json.RawMessages (to defer the parsing of individual
 	// fields from the unmarshalled interface until later) and unmarshal the input

@@ -33,7 +33,7 @@ The following routines are described:
 
 ### Disclaimer
 - This document is not intended to be a definite guide to obtaining certificates. It aims only as a guide for user to understand how Snap works with certificates. Each organization has to review its own requirements prior to obtaining certificates or setting up any secure communication scheme
-- Note that this guide doesn't cover how to handle certificate revocation, as that service is not supported yet in Snap. While it is not on our roadmap yet, you are more than welcome to influence the solution by [posting a feature request](https://github.com/intelsdi-x/snap/issues).
+- Note that this guide doesn't cover how to handle certificate revocation, as that service is not supported yet in Snap. While it is not on our roadmap yet, you are more than welcome to influence the solution by [posting a feature request](https://github.com/micruzz82/snap/issues).
 
 ## Obtaining self-signed certificates
 
@@ -102,7 +102,7 @@ There's no way around the need to register a domain name to use this example. In
 
 ### Notes
 
-At the moment there's no way to use domain-bound certificates directly in Snap. That's a subject of ongoing implementation, and should be addressed by intelsdi-x/snap-plugin-lib-go#85. As soon as implementation is complete, this document will be updated.
+At the moment there's no way to use domain-bound certificates directly in Snap. That's a subject of ongoing implementation, and should be addressed by micruzz82/snap-plugin-lib-go#85. As soon as implementation is complete, this document will be updated.
 
 ### Procedure
 
@@ -186,7 +186,7 @@ We'll assume the following files are all available:
 
 1. Load a plugin
 
-    Start a new shell session and load plugin built with [snap-plugin-lib-go](https://github.com/intelsdi-x/snap-plugin-lib-go), e.g. `snap-plugin-collector-rand` from `snap-plugin-lib-go` examples:
+    Start a new shell session and load plugin built with [snap-plugin-lib-go](https://github.com/micruzz82/snap-plugin-lib-go), e.g. `snap-plugin-collector-rand` from `snap-plugin-lib-go` examples:
     ```
     snaptel plugin load --plugin-cert=/tmp/snaptest-srv.crt --plugin-key=/tmp/snaptest-srv.key snap-plugin-collector-rand
     ```

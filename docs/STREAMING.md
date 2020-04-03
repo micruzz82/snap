@@ -7,7 +7,7 @@ Streaming by snap enables -
 * Runtime configuration controlling event throughput
 * Buffer configurations which dispatch events after a given duration and/or when a given event count has been reached
 
-Currently there are two plugins that support streaming - [snap relay](https://github.com/intelsdi-x/snap-relay) and [snap-plugin-collector-rand-streaming](https://github.com/intelsdi-x/snap-plugin-lib-go/tree/master/examples/snap-plugin-collector-rand-streaming). 
+Currently there are two plugins that support streaming - [snap relay](https://github.com/micruzz82/snap-relay) and [snap-plugin-collector-rand-streaming](https://github.com/micruzz82/snap-plugin-lib-go/tree/master/examples/snap-plugin-collector-rand-streaming). 
 
 # Configuration options 
 MaxCollectDuration and MaxMetricsBuffer are two configuration options that can be set through streaming task manifest or flags. 
@@ -79,7 +79,7 @@ NAMESPACE 		           VERSIONS
 /intel/relay/statsd 	           1
 ```
 
-6. Create a task manifest for snap-relay (see [exemplary files](https://github.com/intelsdi-x/snap-relay/tree/master/examples/tasks)):
+6. Create a task manifest for snap-relay (see [exemplary files](https://github.com/micruzz82/snap-relay/tree/master/examples/tasks)):
 ```
 ---
   version: 1

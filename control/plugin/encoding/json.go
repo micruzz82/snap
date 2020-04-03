@@ -23,7 +23,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/intelsdi-x/snap/control/plugin/encrypter"
+	"github.com/micruzz82/snap/control/plugin/encrypter"
 )
 
 type jsonEncoder struct {

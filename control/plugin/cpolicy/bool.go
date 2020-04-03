@@ -24,7 +24,7 @@ import (
 	"encoding/gob"
 	"encoding/json"
 
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/core/ctypes"
 )
 
 const (

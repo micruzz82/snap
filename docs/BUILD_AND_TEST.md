@@ -18,13 +18,13 @@ Now you can download Snap into your `$GOPATH`:
 
 ```
 $ # -d is used to download Snap without building it
-$ go get -d github.com/intelsdi-x/snap
-$ cd $GOPATH/src/github.com/intelsdi-x/snap
+$ go get -d github.com/micruzz82/snap
+$ cd $GOPATH/src/github.com/micruzz82/snap
 ```
 
 In the `snap/` directory there's a `Makefile` that builds all dependencies and then the Snap Framework binaries. To get dependencies and build Snap run:  
 ```
-$ cd $GOPATH/src/github.com/intelsdi-x/snap
+$ cd $GOPATH/src/github.com/micruzz82/snap
 $ make
 ```
 
@@ -104,7 +104,7 @@ Contributors are assumed to have run the `legacy` and `small` tests that cover t
 
 Before any tests can be run, the following command should be executed to pull down all of the test dependencies to the local machine (note; this will also run the `./scripts/test.sh` script, see below for more details):
 ```
-$ cd $GOPATH/src/github.com/intelsdi-x/snap
+$ cd $GOPATH/src/github.com/micruzz82/snap
 $ SNAP_TEST_TYPE=[SNAP_TEST_TYPE] make test
 ```
 where the string `[SNAP_TEST_TYPE]` that is shown above is replaced with one of our test types (`legacy`, `small`, `medium`, or `large`). Once the dependencies have been pulled down to the local machine, there are a number of ways to run the various tests included in the Snap framework. To run the complete set of `legacy`, `small`, `medium`, or `large` tests in the Snap framework (and stop at the first failure in a directory before continuing on), you can simply use the same shell-script that is run by the `make test` command that was shown above:  
@@ -153,6 +153,6 @@ As was the case with the previous commands, the `-run` command-line flag can be 
 The Snap Framework supports running tests in an isolated container as opposed to your local host. Run the test script, which calls a `Dockerfile` located at `./scripts/Dockerfile`:
 
 ```
-$ cd $GOPATH/src/github.com/intelsdi-x/snap
+$ cd $GOPATH/src/github.com/micruzz82/snap
 $ scripts/run_tests_with_docker.sh [SNAP_TEST_TYPE]  
 ```

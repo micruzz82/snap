@@ -24,7 +24,7 @@ package scheduler
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/pkg/cfgfile"
+	"github.com/micruzz82/snap/pkg/cfgfile"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

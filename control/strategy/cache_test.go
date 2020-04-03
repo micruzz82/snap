@@ -27,9 +27,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/pkg/chrono"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/pkg/chrono"
 )
 
 func TestCache(t *testing.T) {

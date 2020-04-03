@@ -5,7 +5,7 @@ package core
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/pkg/stringutils"
+	"github.com/micruzz82/snap/pkg/stringutils"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

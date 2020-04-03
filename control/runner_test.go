@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/gomit"
+	"github.com/micruzz82/gomit"
 
-	"github.com/intelsdi-x/snap/control/fixtures"
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/control/fixtures"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

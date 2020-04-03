@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
 
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/core/serror"
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/intelsdi-x/gomit"
+	"github.com/micruzz82/gomit"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/scheduler_event"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/scheduler_event"
+	"github.com/micruzz82/snap/scheduler/wmap"
 )
 
 // WorkflowState int type

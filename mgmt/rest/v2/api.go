@@ -25,7 +25,7 @@ import (
 
 	"net/http"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/api"
+	"github.com/micruzz82/snap/mgmt/rest/api"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/negroni"
 )

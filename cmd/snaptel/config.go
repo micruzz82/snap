@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"text/tabwriter"
 
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/core/ctypes"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
@@ -45,7 +45,7 @@ func (c *config) loadConfig(path string) error {
 		"_module":     "snaptel-config",
 		"_block":      "loadConfig",
 		"config_path": path,
-	}).Warning("The snaptel configuration file will be deprecated. Find more information here: https://github.com/intelsdi-x/snap/issues/1539")
+	}).Warning("The snaptel configuration file will be deprecated. Find more information here: https://github.com/micruzz82/snap/issues/1539")
 	b, err := ioutil.ReadFile(path)
 	if err != nil {
 		return fmt.Errorf("Unable to read config. File might not exist.")

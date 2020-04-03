@@ -1,4 +1,4 @@
-package: github.com/intelsdi-x/snap
+package: github.com/micruzz82/snap
 import:
 - package: github.com/sirupsen/logrus
   version: be52937128b38f1d99787bb476c789e2af1147f1
@@ -25,7 +25,7 @@ import:
   - codec
 - package: github.com/hashicorp/memberlist
   version: a93fbd426dd831f5a66db3adc6a5ffa6f44cc60a
-- package: github.com/intelsdi-x/gomit
+- package: github.com/micruzz82/gomit
 - package: github.com/julienschmidt/httprouter
   version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
 - package: github.com/pborman/uuid
@@ -50,5 +50,5 @@ import:
   version: ~v1.5.2
 - package: gopkg.in/yaml.v2
   version: c1cd2254a6dd314c9d73c338c12688c9325d85c6
-- package: github.com/intelsdi-x/snap-plugin-lib-go
-- package: github.com/intelsdi-x/snap-plugin-utilities
+- package: github.com/micruzz82/snap-plugin-lib-go
+- package: github.com/micruzz82/snap-plugin-utilities

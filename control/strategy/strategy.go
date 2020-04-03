@@ -25,7 +25,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
+	"github.com/micruzz82/snap/core"
 )
 
 type MapAvailablePlugin map[uint32]AvailablePlugin

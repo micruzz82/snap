@@ -34,12 +34,12 @@ import (
 	"github.com/pborman/uuid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/mgmt/rest"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1"
-	"github.com/intelsdi-x/snap/plugin/helper"
-	"github.com/intelsdi-x/snap/scheduler"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/mgmt/rest"
+	"github.com/micruzz82/snap/mgmt/rest/v1"
+	"github.com/micruzz82/snap/plugin/helper"
+	"github.com/micruzz82/snap/scheduler"
+	"github.com/micruzz82/snap/scheduler/wmap"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

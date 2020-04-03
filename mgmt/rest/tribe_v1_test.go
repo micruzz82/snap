@@ -35,13 +35,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/gomit"
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/tribe_event"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
-	"github.com/intelsdi-x/snap/mgmt/tribe"
-	"github.com/intelsdi-x/snap/scheduler"
+	"github.com/micruzz82/gomit"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/tribe_event"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/mgmt/tribe"
+	"github.com/micruzz82/snap/scheduler"
 )
 
 var (

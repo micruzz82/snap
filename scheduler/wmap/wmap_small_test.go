@@ -28,7 +28,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/scheduler/wmap/fixtures"
+	"github.com/micruzz82/snap/scheduler/wmap/fixtures"
 )
 
 func TestWorkflowFromYAML(t *testing.T) {

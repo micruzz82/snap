@@ -25,15 +25,15 @@ Snap daemon runs as a service which provides the core functionality such as plug
 
 The following libraries are available to simplify the process of writing a plugin:
 
-* [snap-plugin-lib-go](https://github.com/intelsdi-x/snap-plugin-lib-go)
-* [snap-plugin-lib-cpp](https://github.com/intelsdi-x/snap-plugin-lib-cpp)
-* [snap-plugin-lib-py](https://github.com/intelsdi-x/snap-plugin-lib-py)
+* [snap-plugin-lib-go](https://github.com/micruzz82/snap-plugin-lib-go)
+* [snap-plugin-lib-cpp](https://github.com/micruzz82/snap-plugin-lib-cpp)
+* [snap-plugin-lib-py](https://github.com/micruzz82/snap-plugin-lib-py)
 
 A few notes before we get started:
 
 Communication between Snap daemon and plugins use gRPC. So even if a plugin library isn't available in the language of your choice, you can still write a plugin using the [gRPC library](http://grpc.io/docs) as a starting point. However this requires additional knowledge about Snap API, [gRPC/protobuf](../control/plugin/rpc/plugin.proto), so it is beyond the scope of this document.
 
-Before writing a new Snap plugin, please check out the [Plugin Catalog](./PLUGIN_CATALOG.md) to see if any existing plugins meet your needs. If you need any assistance, please reach out on [Slack #snap-developers channel](https://intelsdi-x.herokuapp.com/).
+Before writing a new Snap plugin, please check out the [Plugin Catalog](./PLUGIN_CATALOG.md) to see if any existing plugins meet your needs. If you need any assistance, please reach out on [Slack #snap-developers channel](https://micruzz82.herokuapp.com/).
 
 ## Developing Plugins
 
@@ -77,7 +77,7 @@ For example `ACME` org writing a `water` plugin, gather `usage` in gallons from 
 
 A plugin can have any number of internal plugin namespace. It's up to the plugin author on how to organize the metrics in a meaningful way. This information should be documented in the README for ease of usage.
 
-NOTE: The intelsdi-x project reserves the org namespace `/intel`.
+NOTE: The micruzz82 project reserves the org namespace `/intel`.
 
 ### Plugin Interface
 
@@ -87,7 +87,7 @@ Depending on the type of plugin, they must implement several methods to satisfy 
 
 Currently plugin versions are integer numbers and registered when a plugin is loaded. Whenever the source code is modified, please update the plugin version.
 
-The following plugin version is taken from [Go lib example](https://github.com/intelsdi-x/snap-plugin-lib-go/blob/master/examples/collector/main.go).
+The following plugin version is taken from [Go lib example](https://github.com/micruzz82/snap-plugin-lib-go/blob/master/examples/collector/main.go).
 
 ```go
 const (
@@ -105,7 +105,7 @@ Whenever the version changes, we also recommend:
 * git tag the repository with the new plugin version
 * publish binaries in github release page
 
-For intelsdi-x repos, the binaries publishing is automated. If we update the rand plugin to version 2, simply tag the commit with the new version and push the new tags to github:
+For micruzz82 repos, the binaries publishing is automated. If we update the rand plugin to version 2, simply tag the commit with the new version and push the new tags to github:
 
 ```
 $ git tag -a 2 -m 'snap plugin collector rand v2'
@@ -116,7 +116,7 @@ NOTE: We are planning to adapt [Semantic Versioning](http://semver.org/). This r
 
 ### Plugin Release
 
-We recommend releasing new binaries to Github Release page whenever the plugin version is updated. This process can be automated via [Travis CI](https://docs.travis-ci.com/user/deployment/releases/). Please check out the file plugin's [.travis.yml](https://github.com/intelsdi-x/snap-plugin-publisher-file/blob/master/.travis.yml) file for a working example.
+We recommend releasing new binaries to Github Release page whenever the plugin version is updated. This process can be automated via [Travis CI](https://docs.travis-ci.com/user/deployment/releases/). Please check out the file plugin's [.travis.yml](https://github.com/micruzz82/snap-plugin-publisher-file/blob/master/.travis.yml) file for a working example.
 
 ### Plugin Metadata
 
@@ -131,7 +131,7 @@ In the plugin repo root directory, the `metadata.yml` file provides Snap project
 * **ci**: a list of ci services running for this repo
 * **status**: one of the four statuses [described below](#plugin-status)
 
-All metadata fields are optional, but recommended to help users discover your plugin. Please check out the file plugin's [metadata.yml](https://github.com/intelsdi-x/snap-plugin-publisher-file/blob/master/metadata.yml) file for a working example.
+All metadata fields are optional, but recommended to help users discover your plugin. Please check out the file plugin's [metadata.yml](https://github.com/micruzz82/snap-plugin-publisher-file/blob/master/metadata.yml) file for a working example.
 
 We recommend sharing your plugins early and often by adding them to the list of known plugins. To list your plugin in the plugin catalog, please submit a PR and update [plugins.yml](./plugins.yml) file to include the plugin's github `organization/repo_name`.
 
@@ -140,9 +140,9 @@ We recommend sharing your plugins early and often by adding them to the list of 
 We provide a list of Snap plugins at [snap-telemetry.io](http://snap-telemetry.io/plugins.html) and in [this repo](PLUGIN_CATALOG.md). To keep these catalogs in sync, we do the following:
 
 * Update [plugins.yml](plugins.yml) file to include a line containing `- org/repo_name`
-* Periodically run [pluginsync tool](https://github.com/intelsdi-x/snap-pluginsync#update-plugin-metadata) to update the catalog
+* Periodically run [pluginsync tool](https://github.com/micruzz82/snap-pluginsync#update-plugin-metadata) to update the catalog
 * [Plugin Metadata](#plugin-metadata) will be scanned and used accordingly when the pluginsync tool generates the catalog
-* We do _not_ make changes directly to [PLUGIN_CATALOG.md](plugin_catalog.md) or the [parsed_plugin_list.js](https://github.com/intelsdi-x/snap/blob/gh-pages/assets/catalog/parsed_plugin_list.js) file since they are generated from [templates](https://github.com/intelsdi-x/snap-pluginsync/blob/master/PLUGIN_CATALOG.md.erb)
+* We do _not_ make changes directly to [PLUGIN_CATALOG.md](plugin_catalog.md) or the [parsed_plugin_list.js](https://github.com/micruzz82/snap/blob/gh-pages/assets/catalog/parsed_plugin_list.js) file since they are generated from [templates](https://github.com/micruzz82/snap-pluginsync/blob/master/PLUGIN_CATALOG.md.erb)
 
 ### Plugin Status
 
@@ -171,4 +171,4 @@ We request that all plugins include a README with the following information:
 1. Contributors
 1. License
 
-You are welcome to copy an existing README.md (and CONTRIBUTING.md) to get started. I recommend looking at [psutil](https://github.com/intelsdi-x/snap-plugin-collector-psutil).
+You are welcome to copy an existing README.md (and CONTRIBUTING.md) to get started. I recommend looking at [psutil](https://github.com/micruzz82/snap-plugin-collector-psutil).

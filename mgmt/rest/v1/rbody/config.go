@@ -19,7 +19,7 @@ limitations under the License.
 
 package rbody
 
-import "github.com/intelsdi-x/snap/core/cdata"
+import "github.com/micruzz82/snap/core/cdata"
 
 const (
 	PluginConfigItemType       = "config_plugin_item_returned"

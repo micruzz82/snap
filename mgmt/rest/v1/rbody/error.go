@@ -22,7 +22,7 @@ package rbody
 import (
 	"fmt"
 
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/core/serror"
 )
 
 const (

@@ -24,7 +24,7 @@ package scheduler
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/core"
+	"github.com/micruzz82/snap/core"
 
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"

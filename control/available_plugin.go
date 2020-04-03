@@ -31,14 +31,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/gomit"
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/control/plugin/client"
-	"github.com/intelsdi-x/snap/control/strategy"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/control_event"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/gomit"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/control/plugin/client"
+	"github.com/micruzz82/snap/control/strategy"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/control_event"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/core/serror"
 )
 
 const (
@@ -114,7 +114,7 @@ func newAvailablePlugin(resp plugin.Response, emitter gomit.Emitter, ep executab
 				"_module":     "control-aplugin",
 				"_block":      "newAvailablePlugin",
 				"plugin_name": ap.name,
-			}).Warning("This plugin is using a deprecated RPC protocol. Find more information here: https://github.com/intelsdi-x/snap/issues/1289 ")
+			}).Warning("This plugin is using a deprecated RPC protocol. Find more information here: https://github.com/micruzz82/snap/issues/1289 ")
 			c, e := client.NewCollectorNativeClient(resp.ListenAddress, DefaultClientTimeout, resp.PublicKey, !resp.Meta.Unsecure)
 			if e != nil {
 				return nil, errors.New("error while creating client connection: " + e.Error())

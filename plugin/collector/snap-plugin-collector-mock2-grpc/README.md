@@ -20,4 +20,4 @@ limitations under the License.
 
 The contents of `plugin/` are used as part of our testing framework. If you are looking for examples of how to write a plugin for Snap, review the [Plugin Authoring documentation](/docs/PLUGIN_AUTHORING.md).
 
-Curious what plugins are under development? See the `plugin-wishlist` label in [our issue backlog](https://github.com/intelsdi-x/snap/labels/plugin-wishlist).
+Curious what plugins are under development? See the `plugin-wishlist` label in [our issue backlog](https://github.com/micruzz82/snap/labels/plugin-wishlist).

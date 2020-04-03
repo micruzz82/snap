@@ -25,7 +25,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
+	"github.com/micruzz82/snap-plugin-lib-go/v1/plugin"
 )
 
 var (

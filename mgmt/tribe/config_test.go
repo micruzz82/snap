@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/snap/pkg/cfgfile"
-	"github.com/intelsdi-x/snap/pkg/netutil"
+	"github.com/micruzz82/snap/pkg/cfgfile"
+	"github.com/micruzz82/snap/pkg/netutil"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

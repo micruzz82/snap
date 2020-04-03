@@ -27,7 +27,7 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/core/serror"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -22,8 +22,8 @@ package main
 import (
 	"os"
 
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/plugin/processor/snap-plugin-processor-passthru/passthru"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/plugin/processor/snap-plugin-processor-passthru/passthru"
 )
 
 func main() {

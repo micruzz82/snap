@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/serror"
 )
 
 var pluginCatalog []core.CatalogedPlugin = []core.CatalogedPlugin{

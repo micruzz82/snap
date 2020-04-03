@@ -102,7 +102,7 @@ go tool pprof `which snapteld` cpu.pprof
 ```
 
 ## BONUS: using pprof tools for plugin
-Plugins that use the [new Go library](https://github.com/intelsdi-x/snap-plugin-lib-go/tree/master/v1/plugin) will have their own endpoint.
+Plugins that use the [new Go library](https://github.com/micruzz82/snap-plugin-lib-go/tree/master/v1/plugin) will have their own endpoint.
 ```bash
 $ snaptel plugin list --running
 NAME 		 HIT COUNT 	 LAST HIT 			 TYPE 		 PPROF PORT

@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/scheduler/wmap"
 )
 
 type Schedule struct {

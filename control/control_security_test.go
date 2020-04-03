@@ -31,17 +31,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/gomit"
+	"github.com/micruzz82/gomit"
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/control/fixtures"
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/control/plugin/client"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/plugin/helper"
+	"github.com/micruzz82/snap/control/fixtures"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/control/plugin/client"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/plugin/helper"
 )
 
 type MockEmitter struct{}

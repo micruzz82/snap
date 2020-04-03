@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/core/cdata"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/core/cdata"
 )
 
 var (

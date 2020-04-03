@@ -20,10 +20,10 @@ limitations under the License.
 package control
 
 import (
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/grpc/common"
-	"github.com/intelsdi-x/snap/grpc/controlproxy/rpc"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/grpc/common"
+	"github.com/micruzz82/snap/grpc/controlproxy/rpc"
 	"golang.org/x/net/context"
 )
 

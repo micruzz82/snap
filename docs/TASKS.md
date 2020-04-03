@@ -18,7 +18,7 @@ A task can be in the following states:
 
   How To                                |  Command
 ----------------------------------------|----------------------------------------
-  Create task                           |  snaptel task create _[command options] [arguments...]_ <br/>  Find more details [here](https://github.com/intelsdi-x/snap/blob/master/docs/SNAPTEL.md#task)
+  Create task                           |  snaptel task create _[command options] [arguments...]_ <br/>  Find more details [here](https://github.com/micruzz82/snap/blob/master/docs/SNAPTEL.md#task)
   List                                  |  snaptel task list
   Start task                            |  snaptel task start _\<task_id>_
   Stop task                             |  snaptel task stop _\<task_id>_

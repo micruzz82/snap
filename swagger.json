@@ -16,8 +16,8 @@
     "termsOfService": "There are no TOS at this moment, use at your own risk we take no responsibility.",
     "contact": {
       "name": "Snap Maintainer",
-      "url": "https://github.com/intelsdi-x/snap",
-      "email": "snap@intelsdi-x.slack.com"
+      "url": "https://github.com/micruzz82/snap",
+      "email": "snap@micruzz82.slack.com"
     },
     "license": {
       "name": "Apache 2.0",
@@ -806,12 +806,12 @@
           "x-go-name": "Tags"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/scheduler/wmap"
+      "x-go-package": "github.com/micruzz82/snap/scheduler/wmap"
     },
     "ConfigDataNode": {
       "description": "Represents a set of configuration data",
       "type": "object",
-      "x-go-package": "github.com/intelsdi-x/snap/core/cdata"
+      "x-go-package": "github.com/micruzz82/snap/core/cdata"
     },
     "DynamicElement": {
       "type": "object",
@@ -833,7 +833,7 @@
           "x-go-name": "Name"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "Error": {
       "description": "Unsuccessful generic response to a failed API call",
@@ -851,7 +851,7 @@
           "x-go-name": "ErrorMessage"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "Metric": {
       "type": "object",
@@ -903,7 +903,7 @@
           "x-go-name": "Version"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "Plugin": {
       "type": "object",
@@ -966,7 +966,7 @@
           "x-go-name": "Version"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "PolicyTable": {
       "$ref": "#/definitions/RuleTable"
@@ -976,7 +976,7 @@
       "items": {
         "$ref": "#/definitions/RuleTable"
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "ProcessWorkflowMapNode": {
       "type": "object",
@@ -1020,7 +1020,7 @@
           "x-go-name": "Target"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/scheduler/wmap"
+      "x-go-package": "github.com/micruzz82/snap/scheduler/wmap"
     },
     "PublishWorkflowMapNode": {
       "type": "object",
@@ -1050,7 +1050,7 @@
           "x-go-name": "Target"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/scheduler/wmap"
+      "x-go-package": "github.com/micruzz82/snap/scheduler/wmap"
     },
     "RuleTable": {
       "type": "object",
@@ -1080,7 +1080,7 @@
           "x-go-name": "Type"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/control/plugin/cpolicy"
+      "x-go-package": "github.com/micruzz82/snap/control/plugin/cpolicy"
     },
     "Schedule": {
       "type": "object",
@@ -1116,7 +1116,7 @@
           "x-go-name": "Type"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/core"
+      "x-go-package": "github.com/micruzz82/snap/core"
     },
     "StreamedMetric": {
       "type": "object",
@@ -1140,7 +1140,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "StreamedMetrics": {
       "type": "array",
@@ -1148,7 +1148,7 @@
       "items": {
         "$ref": "#/definitions/StreamedMetric"
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "StreamedTaskEvent": {
       "type": "object",
@@ -1166,7 +1166,7 @@
           "x-go-name": "EventType"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "Task": {
       "type": "object",
@@ -1242,14 +1242,14 @@
           "$ref": "#/definitions/WorkflowMap"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "Tasks": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/Task"
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "UnauthError": {
       "type": "object",
@@ -1265,7 +1265,7 @@
           "x-go-name": "Message"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/mgmt/rest/v2"
+      "x-go-package": "github.com/micruzz82/snap/mgmt/rest/v2"
     },
     "WorkflowMap": {
       "description": "WorkflowMap represents a map of a desired workflow that is used to create a scheduleWorkflow",
@@ -1278,7 +1278,7 @@
           "$ref": "#/definitions/CollectWorkflowMapNode"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/scheduler/wmap"
+      "x-go-package": "github.com/micruzz82/snap/scheduler/wmap"
     },
     "metricInfo": {
       "type": "object",
@@ -1289,7 +1289,7 @@
           "x-go-name": "Version_"
         }
       },
-      "x-go-package": "github.com/intelsdi-x/snap/scheduler/wmap"
+      "x-go-package": "github.com/micruzz82/snap/scheduler/wmap"
     }
   },
   "responses": {

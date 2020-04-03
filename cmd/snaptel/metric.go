@@ -28,11 +28,11 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/client"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/mgmt/rest/client"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
 	"github.com/urfave/cli"
 
-	"github.com/intelsdi-x/snap/pkg/stringutils"
+	"github.com/micruzz82/snap/pkg/stringutils"
 )
 
 func listMetrics(ctx *cli.Context) error {

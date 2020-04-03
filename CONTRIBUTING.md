@@ -89,7 +89,7 @@ The goal of the following guidelines is to have Pull Requests (PRs) that are fai
 * **Keep it readable for human reviewers.** We prefer to see a subset of functionality (code) with tests and documentation over delivering them separately
 * **Code changes start with a GitHub Issue** that is resolved by the PR (referencing related issues is helpful as well)
 * **You can post comments to your PR** especially when you'd like to give reviewers some more context
-* **Don't forget commenting code** to help reviewers understand and to keep [our Go Report Card](https://goreportcard.com/report/github.com/intelsdi-x/snap) at A+
+* **Don't forget commenting code** to help reviewers understand and to keep [our Go Report Card](https://goreportcard.com/report/github.com/micruzz82/snap) at A+
 * **Partial work is welcome** and you can submit it with the PR title including [WIP]
 * **Please, keep us updated.** We will try our best to merge your PR, but please notice that PRs may be closed after 30 days of inactivity. This covers cases like: failing tests, unresolved conflicts against master branch or unaddressed review comments.
 
@@ -109,9 +109,9 @@ It's worth noting that we don't use all the native GitHub features for issue man
 
 We use a number of labels for context in the main framework of Snap. Plugin repository labels will keep it simple. If you want to contribute to Snap, here are the most helpful ones for you:
 
-1. **help-wanted** ([link](https://github.com/intelsdi-x/snap/labels/help-wanted)) - some specific issues maintainers would like help addressing
-2. **type/rfc** ([link](https://github.com/intelsdi-x/snap/labels/type%2Frfc)) - we need active feedback on *how best* to solve these issues
-3. **plugin-wishlist** ([link](https://github.com/intelsdi-x/snap/labels/plugin-wishlist)) - these are a great opportunity to write a plugin
+1. **help-wanted** ([link](https://github.com/micruzz82/snap/labels/help-wanted)) - some specific issues maintainers would like help addressing
+2. **type/rfc** ([link](https://github.com/micruzz82/snap/labels/type%2Frfc)) - we need active feedback on *how best* to solve these issues
+3. **plugin-wishlist** ([link](https://github.com/micruzz82/snap/labels/plugin-wishlist)) - these are a great opportunity to write a plugin
 
 ### Issue Labels
 
@@ -140,9 +140,9 @@ For the sake of clarity, here are a few scenarios you might see play out.
 As a maintainer:
 * An issue is opened stating that Snap is not working. Upon review, the maintainer finds it is an issue with a plugin. She will label the issue with **reviewed/wrong-repo** and open a new issue under the plugin where she tags the original issue reporter, links the original issue and labels it **bug** (which is available in plugins repositories).
 * An issue is opened stating that Snap is not working. It turns out to be related to Snap's functionality. The maintainer will label it **type/bug**. She has time to write the fix to this issue immediately, so she labels the issue as **reviewed/in-progress**. She finds it maps to the Scheduler package and adds additional context with **component/scheduler**. As she begins to write the fix, she opens a PR that says "Fixes #" for the previous issue and labels it **wip-do-not-merge**. When she wants another maintainer to review her PR, she will remove the **wip-do-not-merge** label.
-* As PR is opened that will change Snap functionality (examples at [#977](https://github.com/intelsdi-x/snap/pull/977) & [#803](https://github.com/intelsdi-x/snap/pull/803)). A maintainer labels it **reviewed/needs-2nd-review** and proceeds with the normal code review. If the initial maintainer labels LGTM, another maintainer must review it again. A discussion must take place with a technical lead before merging.
-* A PR is opened which changes the metadata structure for a plugin. A maintainer labels it **reviewed/needs-2nd-review** and adds whatever **breaking-change/** labels are appropriate. If the initial maintainer labels LGTM, another maintainer must review it again. A discussion must take place with a technical lead before merging. This corresponding issue is added to a milestone that corresponds with its targeted release (real example at [#871](https://github.com/intelsdi-x/snap/issues/871)).
-* A PR is opened that edits a small amount of markdown or string output text. A maintainer labels it **effort/small**, gives it a quick review to ensure it renders, writes LGTM and merges it themselves (example: [#1139](https://github.com/intelsdi-x/snap/issues/1139)).
+* As PR is opened that will change Snap functionality (examples at [#977](https://github.com/micruzz82/snap/pull/977) & [#803](https://github.com/micruzz82/snap/pull/803)). A maintainer labels it **reviewed/needs-2nd-review** and proceeds with the normal code review. If the initial maintainer labels LGTM, another maintainer must review it again. A discussion must take place with a technical lead before merging.
+* A PR is opened which changes the metadata structure for a plugin. A maintainer labels it **reviewed/needs-2nd-review** and adds whatever **breaking-change/** labels are appropriate. If the initial maintainer labels LGTM, another maintainer must review it again. A discussion must take place with a technical lead before merging. This corresponding issue is added to a milestone that corresponds with its targeted release (real example at [#871](https://github.com/micruzz82/snap/issues/871)).
+* A PR is opened that edits a small amount of markdown or string output text. A maintainer labels it **effort/small**, gives it a quick review to ensure it renders, writes LGTM and merges it themselves (example: [#1139](https://github.com/micruzz82/snap/issues/1139)).
 * An issue is opened that a maintainer believes could be solved quickly and with no impact outside of its package. She labels it **effort/small** and **help-wanted** to let external contributors know they can pick this up.
 
 And as a contributor:

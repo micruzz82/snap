@@ -26,8 +26,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/ctypes"
 )
 
 func TestSnapClientConfig(t *testing.T) {

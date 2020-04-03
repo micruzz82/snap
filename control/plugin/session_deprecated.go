@@ -1,6 +1,6 @@
 /*          **  DEPRECATED  **
 For more information, see our deprecation notice
-on Github: https://github.com/intelsdi-x/snap/issues/1289
+on Github: https://github.com/micruzz82/snap/issues/1289
 */
 
 /*
@@ -38,11 +38,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/control/plugin/encoding"
-	"github.com/intelsdi-x/snap/control/plugin/encrypter"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/control/plugin/encoding"
+	"github.com/micruzz82/snap/control/plugin/encrypter"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
 )
 
 // Started plugin session state

@@ -25,7 +25,7 @@ import (
 	"encoding/gob"
 	"testing"
 
-	"github.com/intelsdi-x/snap/core/ctypes"
+	"github.com/micruzz82/snap/core/ctypes"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

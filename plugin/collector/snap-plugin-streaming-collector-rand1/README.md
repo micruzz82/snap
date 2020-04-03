@@ -1,6 +1,6 @@
 ## Notice
 This exemplary streaming collector plugin comes from snap-plugin-lib-go repo. It is highly recommended to use up-to-date source code from
-the original location: https://github.com/intelsdi-x/snap-plugin-lib-go/tree/master/examples
+the original location: https://github.com/micruzz82/snap-plugin-lib-go/tree/master/examples
 
 
 
@@ -91,7 +91,7 @@ After implementing a type that satisfies one of {collector, processor, publisher
 
 ### Meta options
 
-The available options are defined in [plugin/meta.go](https://github.com/intelsdi-x/snap-plugin-lib-go/tree/master/v/1/plugin/meta.go). You can use some or none of the options. The options with definitions/explanations are below:
+The available options are defined in [plugin/meta.go](https://github.com/micruzz82/snap-plugin-lib-go/tree/master/v/1/plugin/meta.go). You can use some or none of the options. The options with definitions/explanations are below:
 
 ```go
 // ConcurrencyCount is the max number of concurrent calls the plugin
@@ -141,7 +141,7 @@ An example using some arbitrary values:
 ```
 
 ## Testing
-For testing reference the [Snap Testing Guidelines](https://github.com/intelsdi-x/snap/blob/master/CONTRIBUTING.md#testing-guidelines). To test your plugin with Snap you will need to have [Snap](https://github.com/intelsdi-x/snap) installed, check out these docs for [Snap setup details](https://github.com/intelsdi-x/snap/blob/master/docs/BUILD_AND_TEST.md#getting-started).
+For testing reference the [Snap Testing Guidelines](https://github.com/micruzz82/snap/blob/master/CONTRIBUTING.md#testing-guidelines). To test your plugin with Snap you will need to have [Snap](https://github.com/micruzz82/snap) installed, check out these docs for [Snap setup details](https://github.com/micruzz82/snap/blob/master/docs/BUILD_AND_TEST.md#getting-started).
 
 Each test file should specify the appropriate build tag such as "small", "medium", "large" (e.g. // +build small).
 
@@ -161,9 +161,9 @@ package rand
 ```
 
 ## Ready to Share
-You've made a plugin! Now it's time to share it. Create a release by following these [steps](https://help.github.com/articles/creating-releases/). We recommend that your release version match your plugin version, see example [here](https://github.com/intelsdi-x/snap-plugin-lib-go/blob/master/examples/collector/main.go#L29).
+You've made a plugin! Now it's time to share it. Create a release by following these [steps](https://help.github.com/articles/creating-releases/). We recommend that your release version match your plugin version, see example [here](https://github.com/micruzz82/snap-plugin-lib-go/blob/master/examples/collector/main.go#L29).
 
-Don't forget to announce your plugin release on [slack](https://intelsdi-x.herokuapp.com/) and get your plugin added to the [Plugin Catalog](https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_CATALOG.md)!
+Don't forget to announce your plugin release on [slack](https://micruzz82.herokuapp.com/) and get your plugin added to the [Plugin Catalog](https://github.com/micruzz82/snap/blob/master/docs/PLUGIN_CATALOG.md)!
 
 
 

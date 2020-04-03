@@ -29,7 +29,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/v1"
+	"github.com/micruzz82/snap/mgmt/rest/v1"
 	"github.com/urfave/cli"
 )
 

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/intelsdi-x/snap/pkg/schedule"
+	"github.com/micruzz82/snap/pkg/schedule"
 )
 
 // Schedule defines a scheduler.

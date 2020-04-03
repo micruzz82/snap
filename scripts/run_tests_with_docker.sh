@@ -36,5 +36,5 @@ _debug "project directory ${__proj_dir}"
 
 [[ "$SNAP_TEST_TYPE" =~ ^(small|medium|large|legacy)$ ]] || _error "invalid TEST_TYPE (value must be 'small', 'medium', 'large', or 'legacy', received:${SNAP_TEST_TYPE}"
 
-(cd ${__proj_dir} && docker build -t intelsdi-x/snap-test -f "${__dir}/Dockerfile" .)
-docker run -it intelsdi-x/snap-test scripts/test.sh "${SNAP_TEST_TYPE}"
+(cd ${__proj_dir} && docker build -t micruzz82/snap-test -f "${__dir}/Dockerfile" .)
+docker run -it micruzz82/snap-test scripts/test.sh "${SNAP_TEST_TYPE}"

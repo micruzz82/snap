@@ -34,12 +34,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/mgmt/rest"
-	"github.com/intelsdi-x/snap/mgmt/rest/client"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
-	"github.com/intelsdi-x/snap/mgmt/tribe"
-	"github.com/intelsdi-x/snap/scheduler"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/mgmt/rest"
+	"github.com/micruzz82/snap/mgmt/rest/client"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/mgmt/tribe"
+	"github.com/micruzz82/snap/scheduler"
 )
 
 func getPort() int {

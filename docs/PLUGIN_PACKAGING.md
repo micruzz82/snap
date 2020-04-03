@@ -37,7 +37,7 @@ loaded the binary version of the plugin.
     * From the `build/plugin` directory run the following commands.
     ``` 
     acbuild begin
-    acbuild set-name intelsdi-x/snap-plugin-collector-mock1
+    acbuild set-name micruzz82/snap-plugin-collector-mock1
     acbuild copy snap-plugin-collector-mock1 /bin/snap-plugin-collector-mock1
     acbuild set-exec /bin/snap-plugin-collector-mock1
     acbuild write snap-plugin-collector-mock1-linux-x86_64.aci

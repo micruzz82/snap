@@ -24,7 +24,7 @@ package scheduler
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/scheduler/wmap"
 
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"

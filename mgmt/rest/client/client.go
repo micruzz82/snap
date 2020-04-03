@@ -39,9 +39,9 @@ import (
 
 	"github.com/asaskevich/govalidator"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/rbody"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/mgmt/rest/v1"
+	"github.com/micruzz82/snap/mgmt/rest/v1/rbody"
 )
 
 var (

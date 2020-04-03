@@ -37,9 +37,9 @@ import (
 
 	"strings"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/api"
-	"github.com/intelsdi-x/snap/mgmt/rest/v1"
-	"github.com/intelsdi-x/snap/mgmt/rest/v2"
+	"github.com/micruzz82/snap/mgmt/rest/api"
+	"github.com/micruzz82/snap/mgmt/rest/v1"
+	"github.com/micruzz82/snap/mgmt/rest/v2"
 )
 
 const (

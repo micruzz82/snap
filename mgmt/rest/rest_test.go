@@ -26,9 +26,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/plugin/helper"
-	"github.com/intelsdi-x/snap/scheduler"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/plugin/helper"
+	"github.com/micruzz82/snap/scheduler"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -25,7 +25,7 @@ This directory contains examplary global configuration files for Snap:
 
 * [snaptel-config-sample.json](./snaptel-config-sample.json), snaptel config file. **Notice, it is deprecated and using that is not recommended.**
 
-Read more about [snapteld configuration file](https://github.com/intelsdi-x/snap/blob/master/docs/SNAPTELD_CONFIGURATION.md#snapteld-configuration-file).
+Read more about [snapteld configuration file](https://github.com/micruzz82/snap/blob/master/docs/SNAPTELD_CONFIGURATION.md#snapteld-configuration-file).
 
  
 

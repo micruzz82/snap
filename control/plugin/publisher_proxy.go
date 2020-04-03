@@ -19,7 +19,7 @@ limitations under the License.
 
 package plugin
 
-import "github.com/intelsdi-x/snap/core/ctypes"
+import "github.com/micruzz82/snap/core/ctypes"
 
 type PublishArgs struct {
 	ContentType string

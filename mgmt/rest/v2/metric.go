@@ -28,8 +28,8 @@ import (
 
 	"net/url"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/pkg/stringutils"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/pkg/stringutils"
 	"github.com/julienschmidt/httprouter"
 )
 

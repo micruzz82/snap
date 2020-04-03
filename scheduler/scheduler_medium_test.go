@@ -29,13 +29,13 @@ import (
 	"github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/pkg/schedule"
-	"github.com/intelsdi-x/snap/scheduler/fixtures"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/pkg/schedule"
+	"github.com/micruzz82/snap/scheduler/fixtures"
+	"github.com/micruzz82/snap/scheduler/wmap"
 )
 
 type mockMetricManager struct {

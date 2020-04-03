@@ -25,19 +25,19 @@ import (
 	"net"
 	"testing"
 
-	"github.com/intelsdi-x/gomit"
+	"github.com/micruzz82/gomit"
 	"golang.org/x/net/context"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control/fixtures"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/control_event"
-	"github.com/intelsdi-x/snap/core/ctypes"
-	"github.com/intelsdi-x/snap/grpc/common"
-	"github.com/intelsdi-x/snap/grpc/controlproxy/rpc"
-	"github.com/intelsdi-x/snap/pkg/rpcutil"
-	"github.com/intelsdi-x/snap/plugin/helper"
+	"github.com/micruzz82/snap/control/fixtures"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/control_event"
+	"github.com/micruzz82/snap/core/ctypes"
+	"github.com/micruzz82/snap/grpc/common"
+	"github.com/micruzz82/snap/grpc/controlproxy/rpc"
+	"github.com/micruzz82/snap/pkg/rpcutil"
+	"github.com/micruzz82/snap/plugin/helper"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

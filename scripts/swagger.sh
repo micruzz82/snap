@@ -21,7 +21,7 @@ __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 . "${__dir}/common.sh"
 
 if ! type swagger 2> /dev/null; then
-    _error "No Swagger found. Your API specification might be out-of-date. Please run 'make deps' to install all dependencies. For more info, see https://github.com/intelsdi-x/snap#system-requirements"
+    _error "No Swagger found. Your API specification might be out-of-date. Please run 'make deps' to install all dependencies. For more info, see https://github.com/micruzz82/snap#system-requirements"
 fi
 
 _info "Updating API specification file..."

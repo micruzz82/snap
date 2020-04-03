@@ -30,11 +30,11 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/vrischmann/jsonutil"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/mgmt/rest"
-	"github.com/intelsdi-x/snap/mgmt/tribe"
-	"github.com/intelsdi-x/snap/pkg/cfgfile"
-	"github.com/intelsdi-x/snap/scheduler"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/mgmt/rest"
+	"github.com/micruzz82/snap/mgmt/tribe"
+	"github.com/micruzz82/snap/pkg/cfgfile"
+	"github.com/micruzz82/snap/scheduler"
 )
 
 var validCmdlineFlags_input = mockFlags{

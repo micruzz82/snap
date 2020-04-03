@@ -29,8 +29,8 @@ package worker
 // 	log "github.com/sirupsen/logrus"
 // 	. "github.com/smartystreets/goconvey/convey"
 //
-// 	"github.com/intelsdi-x/snap/core"
-// 	"github.com/intelsdi-x/snap/core/serror"
+// 	"github.com/micruzz82/snap/core"
+// 	"github.com/micruzz82/snap/core/serror"
 // )
 //
 // type mockPluginManager struct{}

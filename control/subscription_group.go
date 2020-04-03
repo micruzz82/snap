@@ -27,11 +27,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/control_event"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/control_event"
+	"github.com/micruzz82/snap/core/serror"
 
 	log "github.com/sirupsen/logrus"
 )

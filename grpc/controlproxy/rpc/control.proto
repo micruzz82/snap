@@ -19,7 +19,7 @@ limitations under the License.
 syntax = "proto3";
 
 package rpc;
-import "github.com/intelsdi-x/snap/grpc/common/common.proto";
+import "github.com/micruzz82/snap/grpc/common/common.proto";
 
 
 service MetricManager {

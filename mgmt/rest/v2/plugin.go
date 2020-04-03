@@ -36,9 +36,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/serror"
 	"github.com/julienschmidt/httprouter"
 )
 

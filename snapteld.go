@@ -39,13 +39,13 @@ import (
 	"github.com/vrischmann/jsonutil"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/intelsdi-x/snap/control"
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/mgmt/rest"
-	"github.com/intelsdi-x/snap/mgmt/tribe"
-	"github.com/intelsdi-x/snap/mgmt/tribe/agreement"
-	"github.com/intelsdi-x/snap/pkg/cfgfile"
-	"github.com/intelsdi-x/snap/scheduler"
+	"github.com/micruzz82/snap/control"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/mgmt/rest"
+	"github.com/micruzz82/snap/mgmt/tribe"
+	"github.com/micruzz82/snap/mgmt/tribe/agreement"
+	"github.com/micruzz82/snap/pkg/cfgfile"
+	"github.com/micruzz82/snap/scheduler"
 	"google.golang.org/grpc/grpclog"
 )
 
@@ -971,7 +971,7 @@ func setMaxProcs(maxProcs int) {
 }
 
 // UnmarshalJSON unmarshals valid json into a Config.  An example Config can be found
-// at github.com/intelsdi-x/snap/blob/master/examples/configs/snap-config-sample.json
+// at github.com/micruzz82/snap/blob/master/examples/configs/snap-config-sample.json
 func (c *Config) UnmarshalJSON(data []byte) error {
 	// construct a map of strings to json.RawMessages (to defer the parsing of individual
 	// fields from the unmarshalled interface until later), then unmarshal the input

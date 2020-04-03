@@ -40,13 +40,13 @@ import (
 	"github.com/appc/spec/schema"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/gomit"
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/control/plugin/client"
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/cdata"
-	"github.com/intelsdi-x/snap/core/serror"
+	"github.com/micruzz82/gomit"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/control/plugin/client"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/cdata"
+	"github.com/micruzz82/snap/core/serror"
 )
 
 const (

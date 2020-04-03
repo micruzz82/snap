@@ -1,6 +1,6 @@
 /*          **  DEPRECATED  **
 For more information, see our deprecation notice
-on Github: https://github.com/intelsdi-x/snap/issues/1289
+on Github: https://github.com/micruzz82/snap/issues/1289
 */
 
 /*

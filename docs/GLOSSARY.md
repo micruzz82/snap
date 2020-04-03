@@ -34,10 +34,10 @@ Snap is simple in scope and it becomes more simple when you know the terminology
 * Values passed as command-line parameters or environmental variables ([reference](SNAPTEL.md#global-options))
 
 ### Config: Metric Config
-* key/value pairs shared by collector namespace in a Task Manifest ([example](https://github.com/intelsdi-x/snap-plugin-collector-meminfo/blob/master/examples/tasks/task-mem.json#L15))
+* key/value pairs shared by collector namespace in a Task Manifest ([example](https://github.com/micruzz82/snap-plugin-collector-meminfo/blob/master/examples/tasks/task-mem.json#L15))
 
 ### Config: Plugin Config
-* key/value pairs stored in the `config` block within a Task Manifest ([example](https://github.com/intelsdi-x/snap-plugin-collector-meminfo/blob/master/examples/tasks/task-mem.json#L24))
+* key/value pairs stored in the `config` block within a Task Manifest ([example](https://github.com/micruzz82/snap-plugin-collector-meminfo/blob/master/examples/tasks/task-mem.json#L24))
 
 ### Metric Catalog
 * List of all available metrics exposed by a running instance of the Snap daemon ([reference](PLUGIN_LIFECYCLE.md#what-happens-when-a-plugin-is-loaded))

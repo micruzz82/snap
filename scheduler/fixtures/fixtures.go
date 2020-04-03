@@ -21,8 +21,8 @@ limitations under the License.
 
 package fixtures
 
-import "github.com/intelsdi-x/gomit"
-import "github.com/intelsdi-x/snap/core/scheduler_event"
+import "github.com/micruzz82/gomit"
+import "github.com/micruzz82/snap/core/scheduler_event"
 
 type listenToSchedulerEvent struct {
 	Ended                    chan struct{}

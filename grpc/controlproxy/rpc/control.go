@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/intelsdi-x/snap/control/plugin/cpolicy"
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/grpc/common"
+	"github.com/micruzz82/snap/control/plugin/cpolicy"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/grpc/common"
 	log "github.com/sirupsen/logrus"
 )
 

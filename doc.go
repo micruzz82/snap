@@ -16,7 +16,7 @@
 //     BasePath: /v2
 //     Version: 2.0
 //     License: Apache 2.0  http://www.apache.org/licenses/
-//     Contact: Snap Maintainer<snap@intelsdi-x.slack.com> https://github.com/intelsdi-x/snap
+//     Contact: Snap Maintainer<snap@micruzz82.slack.com> https://github.com/micruzz82/snap
 //
 //     Consumes:
 //     - application/json

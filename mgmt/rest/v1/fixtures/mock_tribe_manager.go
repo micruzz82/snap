@@ -24,9 +24,9 @@ import (
 	"net"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/serror"
-	"github.com/intelsdi-x/snap/mgmt/tribe/agreement"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/serror"
+	"github.com/micruzz82/snap/mgmt/tribe/agreement"
 )
 
 var (

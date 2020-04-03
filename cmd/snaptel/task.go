@@ -33,8 +33,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/client"
-	"github.com/intelsdi-x/snap/scheduler/wmap"
+	"github.com/micruzz82/snap/mgmt/rest/client"
+	"github.com/micruzz82/snap/scheduler/wmap"
 	"github.com/robfig/cron"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh/terminal"

@@ -26,14 +26,14 @@ import (
 	"path"
 	"time"
 
-	"github.com/intelsdi-x/gomit"
+	"github.com/micruzz82/gomit"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/intelsdi-x/snap/control/plugin"
-	"github.com/intelsdi-x/snap/control/plugin/client"
-	"github.com/intelsdi-x/snap/core"
-	"github.com/intelsdi-x/snap/core/control_event"
-	"github.com/intelsdi-x/snap/pkg/aci"
+	"github.com/micruzz82/snap/control/plugin"
+	"github.com/micruzz82/snap/control/plugin/client"
+	"github.com/micruzz82/snap/core"
+	"github.com/micruzz82/snap/core/control_event"
+	"github.com/micruzz82/snap/pkg/aci"
 )
 
 var (

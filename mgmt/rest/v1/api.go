@@ -3,7 +3,7 @@ package v1
 import (
 	"sync"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/api"
+	"github.com/micruzz82/snap/mgmt/rest/api"
 	log "github.com/sirupsen/logrus"
 )
 

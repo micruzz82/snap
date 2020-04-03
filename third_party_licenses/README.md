@@ -1,6 +1,6 @@
 # Third Party Licenses
 
-This directory contains licenses of 3rd party components which are used in [Snap](https://github.com/intelsdi-x/snap).
+This directory contains licenses of 3rd party components which are used in [Snap](https://github.com/micruzz82/snap).
 
 Below is the list of 3rd party components grouped by licenses.
 

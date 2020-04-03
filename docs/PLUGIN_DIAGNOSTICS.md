@@ -1,7 +1,7 @@
 # Plugin Diagnostics
 
 Plugin diagnostics provides a simple way to verify that a plugin is capable of running without requiring the plugin to be loaded and a task started.
-This feature works for collector plugins written using one of our snap-plugin-libs ([snap-plugin-lib-go](https://github.com/intelsdi-x/snap-plugin-lib-go), [snap-plugin-lib-py](https://github.com/intelsdi-x/snap-plugin-lib-py), [snap-plugin-lib-cpp](https://github.com/intelsdi-x/snap-plugin-lib-cpp)).
+This feature works for collector plugins written using one of our snap-plugin-libs ([snap-plugin-lib-go](https://github.com/micruzz82/snap-plugin-lib-go), [snap-plugin-lib-py](https://github.com/micruzz82/snap-plugin-lib-py), [snap-plugin-lib-cpp](https://github.com/micruzz82/snap-plugin-lib-cpp)).
 
 Plugin diagnostics delivers following information:
 - runtime details (plugin name, version, etc.)

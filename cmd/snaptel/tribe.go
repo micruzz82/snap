@@ -27,7 +27,7 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	"github.com/intelsdi-x/snap/mgmt/tribe/agreement"
+	"github.com/micruzz82/snap/mgmt/tribe/agreement"
 	"github.com/urfave/cli"
 )
 

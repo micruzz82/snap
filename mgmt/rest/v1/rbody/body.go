@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/intelsdi-x/snap/core/cdata"
+	"github.com/micruzz82/snap/core/cdata"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/negroni"
 )

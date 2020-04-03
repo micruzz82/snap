@@ -24,7 +24,7 @@ package v1
 import (
 	"testing"
 
-	"github.com/intelsdi-x/snap/mgmt/rest/v1/fixtures"
+	"github.com/micruzz82/snap/mgmt/rest/v1/fixtures"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

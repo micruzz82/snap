@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/intelsdi-x/snap/pkg/chrono"
+	"github.com/micruzz82/snap/pkg/chrono"
 	log "github.com/sirupsen/logrus"
 	. "github.com/smartystreets/goconvey/convey"
 )

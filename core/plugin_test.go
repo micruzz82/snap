@@ -28,7 +28,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/intelsdi-x/snap/plugin/helper"
+	"github.com/micruzz82/snap/plugin/helper"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

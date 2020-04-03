@@ -8,4 +8,4 @@ Summary of changes:
 Testing done:
 - 
 
-@intelsdi-x/snap-maintainers
+@micruzz82/snap-maintainers

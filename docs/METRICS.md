@@ -21,8 +21,8 @@ A metric in Snap has the following fields.
  * May be added by the framework or other plugins (processors)
   * The framework currently adds the following standard tag to all metrics
    * `plugin_running_on` describing on which host the plugin is running. This value is updated every hour due to a TTL set internally.
- * May be added by a task manifests as described [here](https://github.com/intelsdi-x/snap/pull/941)
- * May be added by the snapteld config as described [here](https://github.com/intelsdi-x/snap/issues/827)
+ * May be added by a task manifests as described [here](https://github.com/micruzz82/snap/pull/941)
+ * May be added by the snapteld config as described [here](https://github.com/micruzz82/snap/issues/827)
 * Unit `string`
  * Describes the magnitude being measured
  * Can be an empty string for unitless data
@@ -103,6 +103,6 @@ It is *important* to note that the `NamespaceElement` fields `Name` and `Descrip
 values when the element they are describing is dynamic in which case the `Value` field would contain the string value "*".
 
 You can find an example of the influxdb publisher creating tags out of the dynamic elements of the namespace and publishing
-to a time series [here](https://github.com/intelsdi-x/snap-plugin-publisher-influxdb/blob/b253302ddfc94e3b444780328d0f503a6d73e3e0/influx/influx.go#L164-L176).
+to a time series [here](https://github.com/micruzz82/snap-plugin-publisher-influxdb/blob/b253302ddfc94e3b444780328d0f503a6d73e3e0/influx/influx.go#L164-L176).
 Using the example above we can expect a datapoint published to a time series with the name `/intel/libvirt/disk/wrreq`
 with tags describing `domain_name` and `disk_name`.  
