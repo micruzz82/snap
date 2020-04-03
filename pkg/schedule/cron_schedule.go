@@ -22,7 +22,7 @@ import (
 	"errors"
 	"time"
 
-	"gopkg.in/robfig/cron.v3"
+	"github.com/robfig/cron/v3"
 )
 
 // ErrMissingCronEntry indicates missing cron entry
